@@ -14,7 +14,22 @@
 		55E93BE22836088800E1A88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E93BE12836088800E1A88E /* Assets.xcassets */; };
 		55E93BE52836088800E1A88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E93BE32836088800E1A88E /* LaunchScreen.storyboard */; };
 		55E93BEE28360D7500E1A88E /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BED28360D7500E1A88E /* SignUpModel.swift */; };
+		55E93BF328363BC100E1A88E /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BF228363BC100E1A88E /* SignUpVM.swift */; };
+		55E93BF528363C6C00E1A88E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BF428363C6C00E1A88E /* Constant.swift */; };
+		55E93BF728363F0F00E1A88E /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BF628363F0F00E1A88E /* ServiceHandler.swift */; };
+		55E93BFF283646C800E1A88E /* HLF_Clone_SignUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BFE283646C800E1A88E /* HLF_Clone_SignUpTests.swift */; };
+		55E93C062836477300E1A88E /* SignUpTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93C052836477300E1A88E /* SignUpTesting.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E93C00283646C800E1A88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E93BCD2836088600E1A88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E93BD42836088600E1A88E;
+			remoteInfo = "HLF-Clone-iOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		55E93BD52836088600E1A88E /* HLF-Clone-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLF-Clone-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +41,23 @@
 		55E93BE42836088800E1A88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55E93BE62836088800E1A88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E93BED28360D7500E1A88E /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		55E93BF228363BC100E1A88E /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		55E93BF428363C6C00E1A88E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		55E93BF628363F0F00E1A88E /* ServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHandler.swift; sourceTree = "<group>"; };
+		55E93BFC283646C800E1A88E /* HLF-Clone-SignUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HLF-Clone-SignUpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E93BFE283646C800E1A88E /* HLF_Clone_SignUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLF_Clone_SignUpTests.swift; sourceTree = "<group>"; };
+		55E93C052836477300E1A88E /* SignUpTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTesting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		55E93BD22836088600E1A88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E93BF9283646C800E1A88E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				55E93BD72836088600E1A88E /* HLF-Clone-iOS */,
+				55E93BFD283646C800E1A88E /* HLF-Clone-SignUpTests */,
 				55E93BD62836088600E1A88E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				55E93BD52836088600E1A88E /* HLF-Clone-iOS.app */,
+				55E93BFC283646C800E1A88E /* HLF-Clone-SignUpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,8 +104,20 @@
 			isa = PBXGroup;
 			children = (
 				55E93BED28360D7500E1A88E /* SignUpModel.swift */,
+				55E93BF228363BC100E1A88E /* SignUpVM.swift */,
+				55E93BF428363C6C00E1A88E /* Constant.swift */,
+				55E93BF628363F0F00E1A88E /* ServiceHandler.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		55E93BFD283646C800E1A88E /* HLF-Clone-SignUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E93BFE283646C800E1A88E /* HLF_Clone_SignUpTests.swift */,
+				55E93C052836477300E1A88E /* SignUpTesting.swift */,
+			);
+			path = "HLF-Clone-SignUpTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +140,24 @@
 			productReference = 55E93BD52836088600E1A88E /* HLF-Clone-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		55E93BFB283646C800E1A88E /* HLF-Clone-SignUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E93C02283646C800E1A88E /* Build configuration list for PBXNativeTarget "HLF-Clone-SignUpTests" */;
+			buildPhases = (
+				55E93BF8283646C800E1A88E /* Sources */,
+				55E93BF9283646C800E1A88E /* Frameworks */,
+				55E93BFA283646C800E1A88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E93C01283646C800E1A88E /* PBXTargetDependency */,
+			);
+			name = "HLF-Clone-SignUpTests";
+			productName = "HLF-Clone-SignUpTests";
+			productReference = 55E93BFC283646C800E1A88E /* HLF-Clone-SignUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +170,10 @@
 				TargetAttributes = {
 					55E93BD42836088600E1A88E = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					55E93BFB283646C800E1A88E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 55E93BD42836088600E1A88E;
 					};
 				};
 			};
@@ -127,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				55E93BD42836088600E1A88E /* HLF-Clone-iOS */,
+				55E93BFB283646C800E1A88E /* HLF-Clone-SignUpTests */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +207,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55E93BFA283646C800E1A88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -149,14 +221,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E93BF528363C6C00E1A88E /* Constant.swift in Sources */,
 				55E93BDD2836088600E1A88E /* ViewController.swift in Sources */,
 				55E93BD92836088600E1A88E /* AppDelegate.swift in Sources */,
 				55E93BDB2836088600E1A88E /* SceneDelegate.swift in Sources */,
+				55E93BF328363BC100E1A88E /* SignUpVM.swift in Sources */,
+				55E93BF728363F0F00E1A88E /* ServiceHandler.swift in Sources */,
 				55E93BEE28360D7500E1A88E /* SignUpModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55E93BF8283646C800E1A88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E93C062836477300E1A88E /* SignUpTesting.swift in Sources */,
+				55E93BFF283646C800E1A88E /* HLF_Clone_SignUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E93C01283646C800E1A88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E93BD42836088600E1A88E /* HLF-Clone-iOS */;
+			targetProxy = 55E93C00283646C800E1A88E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		55E93BDE2836088600E1A88E /* Main.storyboard */ = {
@@ -350,6 +442,42 @@
 			};
 			name = Release;
 		};
+		55E93C03283646C800E1A88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33ZGL3A862;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perennialsys.HLF-Clone-SignUpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLF-Clone-iOS.app/HLF-Clone-iOS";
+			};
+			name = Debug;
+		};
+		55E93C04283646C800E1A88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33ZGL3A862;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perennialsys.HLF-Clone-SignUpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLF-Clone-iOS.app/HLF-Clone-iOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -367,6 +495,15 @@
 			buildConfigurations = (
 				55E93BEA2836088800E1A88E /* Debug */,
 				55E93BEB2836088800E1A88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E93C02283646C800E1A88E /* Build configuration list for PBXNativeTarget "HLF-Clone-SignUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E93C03283646C800E1A88E /* Debug */,
+				55E93C04283646C800E1A88E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
