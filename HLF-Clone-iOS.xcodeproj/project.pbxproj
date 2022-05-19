@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A98BCE028364785000183A4 /* loginUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A98BCDF28364785000183A4 /* loginUI.storyboard */; };
+		0A98BCE228364C26000183A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A98BCE128364C26000183A4 /* LoginViewController.swift */; };
 		55E93BD92836088600E1A88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BD82836088600E1A88E /* AppDelegate.swift */; };
 		55E93BDB2836088600E1A88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BDA2836088600E1A88E /* SceneDelegate.swift */; };
 		55E93BDD2836088600E1A88E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BDC2836088600E1A88E /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A98BCDF28364785000183A4 /* loginUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loginUI.storyboard; sourceTree = "<group>"; };
+		0A98BCE128364C26000183A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		55E93BD52836088600E1A88E /* HLF-Clone-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLF-Clone-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E93BD82836088600E1A88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E93BDA2836088600E1A88E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A98BCDE28364767000183A4 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				0A98BCDF28364785000183A4 /* loginUI.storyboard */,
+				0A98BCE128364C26000183A4 /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 		55E93BCC2836088600E1A88E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		55E93BD72836088600E1A88E /* HLF-Clone-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0A98BCDE28364767000183A4 /* login */,
 				55E93BEC28360D6400E1A88E /* SignUp */,
 				55E93BD82836088600E1A88E /* AppDelegate.swift */,
 				55E93BDA2836088600E1A88E /* SceneDelegate.swift */,
@@ -136,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A98BCE028364785000183A4 /* loginUI.storyboard in Resources */,
 				55E93BE52836088800E1A88E /* LaunchScreen.storyboard in Resources */,
 				55E93BE22836088800E1A88E /* Assets.xcassets in Resources */,
 				55E93BE02836088600E1A88E /* Main.storyboard in Resources */,
@@ -152,6 +167,7 @@
 				55E93BDD2836088600E1A88E /* ViewController.swift in Sources */,
 				55E93BD92836088600E1A88E /* AppDelegate.swift in Sources */,
 				55E93BDB2836088600E1A88E /* SceneDelegate.swift in Sources */,
+				0A98BCE228364C26000183A4 /* LoginViewController.swift in Sources */,
 				55E93BEE28360D7500E1A88E /* SignUpModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
