@@ -13,6 +13,7 @@
 		55E93BE02836088600E1A88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E93BDE2836088600E1A88E /* Main.storyboard */; };
 		55E93BE22836088800E1A88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E93BE12836088800E1A88E /* Assets.xcassets */; };
 		55E93BE52836088800E1A88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E93BE32836088800E1A88E /* LaunchScreen.storyboard */; };
+		55E93BEE28360D7500E1A88E /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BED28360D7500E1A88E /* SignUpModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		55E93BE12836088800E1A88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E93BE42836088800E1A88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55E93BE62836088800E1A88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E93BED28360D7500E1A88E /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		55E93BD72836088600E1A88E /* HLF-Clone-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				55E93BEC28360D6400E1A88E /* SignUp */,
 				55E93BD82836088600E1A88E /* AppDelegate.swift */,
 				55E93BDA2836088600E1A88E /* SceneDelegate.swift */,
 				55E93BDC2836088600E1A88E /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				55E93BE62836088800E1A88E /* Info.plist */,
 			);
 			path = "HLF-Clone-iOS";
+			sourceTree = "<group>";
+		};
+		55E93BEC28360D6400E1A88E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				55E93BED28360D7500E1A88E /* SignUpModel.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				55E93BDD2836088600E1A88E /* ViewController.swift in Sources */,
 				55E93BD92836088600E1A88E /* AppDelegate.swift in Sources */,
 				55E93BDB2836088600E1A88E /* SceneDelegate.swift in Sources */,
+				55E93BEE28360D7500E1A88E /* SignUpModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
