@@ -1,11 +1,12 @@
 //
 //  LoginResponse.swift
-//  HLF-Clone-iOS
+//  TestCaseDemo
 //
-//  Created by Perennial Systems on 19/05/22.
+//  Created by CodeCat15 on 12/24/20.
 //
 
 import Foundation
+
 struct LoginResponse : Codable {
 
     let errorMessage: String?

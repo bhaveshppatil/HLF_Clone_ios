@@ -1,8 +1,8 @@
 //
-//  extensions.swift
-//  HLF-Clone-iOS
+//  StringExtensions.swift
+//  TestCaseDemo
 //
-//  Created by Perennial Systems on 19/05/22.
+//  Created by CodeCat15 on 12/24/20.
 //
 
 import Foundation
@@ -14,4 +14,3 @@ extension String {
         return pred.evaluate(with: self)
     }
 }
-

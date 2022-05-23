@@ -1,8 +1,8 @@
 //
-//  loginValidation.swift
+//  LoginValidation.swift
 //  HLF-Clone-iOS
 //
-//  Created by Perennial Systems on 19/05/22.
+//  Created by Perennial Systems on 23/05/22.
 //
 
 import Foundation

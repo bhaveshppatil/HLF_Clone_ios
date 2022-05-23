@@ -1,11 +1,12 @@
 //
-//  loginrequest.swift
-//  HLF-Clone-iOS
+//  LoginRequest.swift
+//  TestCaseDemo
 //
-//  Created by Perennial Systems on 19/05/22.
+//  Created by CodeCat15 on 12/24/20.
 //
 
 import Foundation
+
 struct LoginRequest: Encodable {
     let userEmail, userPassword: String
 }
