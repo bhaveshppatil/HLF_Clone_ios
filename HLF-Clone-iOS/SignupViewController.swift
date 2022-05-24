@@ -7,7 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignupViewController: UIViewController {
+    
     
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
@@ -23,11 +24,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    static func getVC(with signUpVM : SignUpVM) -> ViewController {
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+    static func getVC(with signUpVM :SignUpVM) -> SignupViewController {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "SignupViewController") as! SignupViewController
         vc.signUpVM = signUpVM
         return vc
+    }
+    
+    @IBAction func createAnAccountAction(_ sender: UIButton) {
+        
+        if signUpVM.isAllValidEntries {
+            
+        }else{
+            
+        }
     }
 }
 

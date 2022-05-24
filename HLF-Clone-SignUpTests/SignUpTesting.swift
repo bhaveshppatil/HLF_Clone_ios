@@ -61,7 +61,7 @@ class SignUpTesting: XCTestCase {
         XCTAssert(isEmailValid, "Email is not valid")
     }
     
-    func testPasswordValidation() {
+    func testPasswordValidation() throws {
         // Given
         model.password = "Perennial@123"
         model.confirmPassword = "Perennial@123"
@@ -72,11 +72,23 @@ class SignUpTesting: XCTestCase {
         // Then
         XCTAssertTrue(isValidPassword, "Password is not a valid one")
         XCTAssertFalse(isValidPassword, "Password is a valid one")
-    
 
     }
     
-
+    func testSignUpModel_Data_Validation() throws {
+        XCTAssertNil(model, "SignUpModel is not Nil")
+        XCTAssertNotNil(model, "SignUpModel is Nil")
+        
+        if let signUpModel = model {
+            XCTAssertEqual(signUpModel.firstName.count, 0, "First Name is non Empty")
+            XCTAssertEqual(signUpModel.lastName.count, 0, "Last Name is non Empty")
+            XCTAssertEqual(signUpModel.email.count, 0, "Email is non Empty")
+            XCTAssertEqual(signUpModel.password.count, 0, "Password is non empty")
+        }else {
+            XCTFail("Failed to signUpModel")
+        }
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

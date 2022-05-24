@@ -10,9 +10,9 @@ import Foundation
 struct Placeholder {
     static let firstName = "Enter your First Name"
     static let lastName = "Enter your Last Name"
-    static let email = "Enter your valid Email"
+    static let email = "Enter your Valid Email"
     static let password = "Enter valid password"
-    static let confirmPassword = "Confirm the password "
+    static let confirmPassword = "Confirm the password"
 }
 
 struct Ranges {

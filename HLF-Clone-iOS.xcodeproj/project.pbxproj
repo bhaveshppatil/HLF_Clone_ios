@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		55E93BD92836088600E1A88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BD82836088600E1A88E /* AppDelegate.swift */; };
 		55E93BDB2836088600E1A88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BDA2836088600E1A88E /* SceneDelegate.swift */; };
-		55E93BDD2836088600E1A88E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BDC2836088600E1A88E /* ViewController.swift */; };
+		55E93BDD2836088600E1A88E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BDC2836088600E1A88E /* SignupViewController.swift */; };
 		55E93BE02836088600E1A88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E93BDE2836088600E1A88E /* Main.storyboard */; };
 		55E93BE22836088800E1A88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E93BE12836088800E1A88E /* Assets.xcassets */; };
 		55E93BE52836088800E1A88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E93BE32836088800E1A88E /* LaunchScreen.storyboard */; };
@@ -19,6 +19,7 @@
 		55E93BF728363F0F00E1A88E /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BF628363F0F00E1A88E /* ServiceHandler.swift */; };
 		55E93BFF283646C800E1A88E /* HLF_Clone_SignUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93BFE283646C800E1A88E /* HLF_Clone_SignUpTests.swift */; };
 		55E93C062836477300E1A88E /* SignUpTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E93C052836477300E1A88E /* SignUpTesting.swift */; };
+		55F66E9A283B51FC001F924A /* ViewControllerUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F66E99283B51FC001F924A /* ViewControllerUnitTesting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 		55E93BD52836088600E1A88E /* HLF-Clone-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLF-Clone-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E93BD82836088600E1A88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E93BDA2836088600E1A88E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55E93BDC2836088600E1A88E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55E93BDC2836088600E1A88E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		55E93BDF2836088600E1A88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55E93BE12836088800E1A88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E93BE42836088800E1A88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		55E93BFC283646C800E1A88E /* HLF-Clone-SignUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HLF-Clone-SignUpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E93BFE283646C800E1A88E /* HLF_Clone_SignUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLF_Clone_SignUpTests.swift; sourceTree = "<group>"; };
 		55E93C052836477300E1A88E /* SignUpTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTesting.swift; sourceTree = "<group>"; };
+		55F66E99283B51FC001F924A /* ViewControllerUnitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTesting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,7 @@
 				55E93BEC28360D6400E1A88E /* SignUp */,
 				55E93BD82836088600E1A88E /* AppDelegate.swift */,
 				55E93BDA2836088600E1A88E /* SceneDelegate.swift */,
-				55E93BDC2836088600E1A88E /* ViewController.swift */,
+				55E93BDC2836088600E1A88E /* SignupViewController.swift */,
 				55E93BDE2836088600E1A88E /* Main.storyboard */,
 				55E93BE12836088800E1A88E /* Assets.xcassets */,
 				55E93BE32836088800E1A88E /* LaunchScreen.storyboard */,
@@ -116,6 +118,7 @@
 			children = (
 				55E93BFE283646C800E1A88E /* HLF_Clone_SignUpTests.swift */,
 				55E93C052836477300E1A88E /* SignUpTesting.swift */,
+				55F66E99283B51FC001F924A /* ViewControllerUnitTesting.swift */,
 			);
 			path = "HLF-Clone-SignUpTests";
 			sourceTree = "<group>";
@@ -222,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E93BF528363C6C00E1A88E /* Constant.swift in Sources */,
-				55E93BDD2836088600E1A88E /* ViewController.swift in Sources */,
+				55E93BDD2836088600E1A88E /* SignupViewController.swift in Sources */,
 				55E93BD92836088600E1A88E /* AppDelegate.swift in Sources */,
 				55E93BDB2836088600E1A88E /* SceneDelegate.swift in Sources */,
 				55E93BF328363BC100E1A88E /* SignUpVM.swift in Sources */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E93C062836477300E1A88E /* SignUpTesting.swift in Sources */,
+				55F66E9A283B51FC001F924A /* ViewControllerUnitTesting.swift in Sources */,
 				55E93BFF283646C800E1A88E /* HLF_Clone_SignUpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
