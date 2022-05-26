@@ -87,6 +87,7 @@ class SignUpTesting: XCTestCase {
         }else {
             XCTFail("Failed to signUpModel")
         }
+        
     }
     
     func testPerformanceExample() throws {
