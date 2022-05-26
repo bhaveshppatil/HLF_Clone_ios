@@ -57,10 +57,6 @@ class ViewControllerUnitTesting: XCTestCase {
         XCTAssertEqual(signupVC.confirmPassword.textContentType, .password, "Password type not match")
     }
     
-    func testCreateAnAccountButton() {
-        
-    }
-    
 
     func testExample() throws {
         // This is an example of a functional test case.
